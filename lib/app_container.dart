@@ -44,6 +44,6 @@ class AppStateInherited extends InheritedWidget {
   @override
   bool updateShouldNotify(AppStateInherited oldWidget) {
     // TODO: implement updateShouldNotify
-    return oldWidget.appState.counter.count != appState.counter.count;
+    return true;
   }
 }
